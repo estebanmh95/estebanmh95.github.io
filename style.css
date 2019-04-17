@@ -120,16 +120,15 @@ nav a.nav-item {
 }
 .bar-left {
   flex-grow: 1;
+  max-width: 300px;
   margin-top: auto;
-  font-size: 36px;
-  padding: 50px 0px 70px;
+  font-size: 18px;
   margin-bottom: auto;
 }
 
 .bar-right {
-
-  font-size: 36px;
-  padding: 50px 0px 70px;
+  max-width: 300px;
+  font-size: 18px;
 }
 .abilities{
   padding: 60px 0 20px;
