@@ -325,6 +325,11 @@ footer {
   #hello p {
     font-size: 32px;
   }
+  
+  #hello figure {
+    width: 600px; 
+    height: 400px;
+  }
   #contact .social a {
     font-size: 32px;
     padding: 5px 10px;
