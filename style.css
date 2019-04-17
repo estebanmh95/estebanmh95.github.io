@@ -356,15 +356,14 @@ footer {
   font-size: 36;
   color: white;
 }
-  .bar-left{
+   .bar-left{
   font-size: 20px;
-  padding: 80px 200px 70px;
-  text-align: left;
   margin: 10px 25px;
+  text-align: left;
+  
 }
 .bar-right{
-  font-size: 20px;
-  padding: 80px 100px 70px;
+  font-size: 20px; 
   margin: 10px 25px;
   text-align: right;
 }
