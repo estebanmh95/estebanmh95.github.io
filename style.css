@@ -118,21 +118,19 @@ nav a.nav-item {
   line-height: 0.8;
   font-size: 18px;
 }
-
 .bar-left {
   flex-grow: 1;
   margin-top: auto;
-  font-size: 24px;
-  padding: 50px 340px 70px;
+  font-size: 36px;
+  padding: 50px 0px 70px;
   margin-bottom: auto;
 }
 
 .bar-right {
 
-  font-size: 24px;
+  font-size: 36px;
   padding: 50px 0px 70px;
 }
-
 .abilities{
   padding: 60px 0 20px;
   background-color: white;
@@ -278,7 +276,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 370px) {
   .media-container{
     width: 85%;
     max-width: 1000px;
@@ -286,13 +284,10 @@ footer {
     margin-right: auto;
     overflow-x: hidden;
   }
-   #hello figure {
-    width: 300px; 
-    height: 200px;
-  }
+
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .media-container{
     width: 85%;
     max-width: 1120px;
@@ -304,6 +299,7 @@ footer {
   header {
     padding: 12px;
   }
+
 
   .logo {
     padding: 0 17px;
@@ -317,7 +313,6 @@ footer {
     padding: 80px 0 80px;
     text-align: center;
   }
-
   #hello h1 {
     font-size: 48px;
   }
@@ -329,7 +324,21 @@ footer {
   #hello p {
     font-size: 32px;
   }
-  
+
+  .bar-left {
+    flex-grow: 1;
+    margin-top: auto;
+    font-size: 24px;
+    padding: 50px 340px 70px;
+    margin-bottom: auto;
+  }
+
+  .bar-right {
+
+    font-size: 24px;
+    padding: 50px 0px 70px;
+  }
+
   #contact .social a {
     font-size: 32px;
     padding: 5px 10px;
