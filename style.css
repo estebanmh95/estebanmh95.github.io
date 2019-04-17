@@ -350,7 +350,8 @@ footer {
   #portfolio p {
   max-width: 550px;
   text-align: justify;
-  font-size: 36
+  font-size: 36;
+  color: white;
 
 }
 }
