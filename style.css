@@ -127,12 +127,16 @@ nav a.nav-item {
 }
 
 .bar-right {
+  flex-grow: 1;
   max-width: 300px;
+  margin-top: auto;
   font-size: 18px;
+  margin-bottom: auto;
 }
 .abilities{
   padding: 60px 0 20px;
   background-color: white;
+  
 }
 .portfolio-background {
  background-color: #444;
@@ -325,17 +329,23 @@ footer {
   }
 
   .bar-left {
-    flex-grow: 1;
-    margin-top: auto;
+
     font-size: 24px;
-    padding: 50px 340px 70px;
-    margin-bottom: auto;
+    padding: 50px 400px 70px;
+
   }
 
   .bar-right {
 
     font-size: 24px;
-    padding: 50px 0px 70px;
+    padding: 50px 20px 70px;
+
+
+  }
+  .abilities{
+    padding: 60px 0 20px;
+    background-color: white;
+
   }
 
   #contact .social a {
@@ -346,3 +356,4 @@ footer {
     border-radius: 50px;
   }
 }
+
