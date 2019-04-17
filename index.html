@@ -1,14 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio</title>
-</head>
-<body>
-  <h1>Full Stack Ruby on Rails Developer</h1>
-  <h2>Esteban Marin</h2>
-  <p><em>Make It </em> <strong>Real</strong> <span>is Awesome!</span></p>
-</body>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esteban Marin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Latest compiled and minified CSS -->
+
+  </head>
+  <body >
+    <header>
+      <div class="container">
+        <div class="home-wrapper">
+          <a href="" class="logo">EstebanMarin</a>
+          <nav class="scroll">
+            <a href="#hello" class="nav-item">Me</a>
+            <a href="#profile" class="nav-item">Profile</a>
+            <a href="#abilities" class="nav-item">Skills</a>
+            <a href="#portfolio" class="nav-item">Experience</a>
+            <a href="#contact" class="nav-item">Contact</a>
+
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div class="home-background"> -->
+    <div class = "home-background">
+
+      <section id="hello" class="container">
+        <h1>Ruby on Rails Full Stack Developer</h1>
+        <figure>
+          <img src="images/image1.png"" alt="The Pulpit Rock" width="600" height="400">
+        </figure>
+        <h2>Hello, I'm Esteban Marin</h2>
+        <p>If a passionate, self driven programmer is what you're looking for, you're in luck</p>
+      </section>
+    </div>
+    <div class="profile_background">
+      <section id="profile" class="flex-container">
+        <h2>Profile</h2>
+
+          <div class="flex-left">
+            <p>Mechatronics engineer with great skills in software programming.
+              Proud of my <span>problem solving</span>, <span>adaptation</span> and <span>fast
+              learning</span> abilities. </p>
+            <p>My principal goal is to keep growing in this fast expanding industry knowing
+            that mi knowledge and hardwork can be of great help to whoever decides to count
+            with me</p>
+          </div>
+
+        <div class="flex-right">
+          <div>
+            <h3>Fullname</h3>
+            <p>Esteban Marin</p>
+          </div><hr class="linea_est">
+          <div>
+            <h3>Birth Date</h3>
+            <p>March 21th 1995 (24 yo)</p>
+          </div><hr class="linea_est">
+          <div>
+            <h3>Location</h3>
+            <p>Medellín, Colombia</p>
+          </div>
+          <div><hr class="linea_est">
+            <h3>Languages</h3>
+            <p>Spanish(C2) / English(C1)</p>
+          </div>
+        </div>
+      </section>
+      <section id="abilities" class="abilities">
+        <br>
+        <h2 class="flex-container">Hard Skills</h2>
+        <table>
+          <td>
+          <div class="bar-left">
+            <p>Ruby</p>
+            <progress value="85" max="100"></progress>
+            <p>SQlite/PostgreSQL</p>
+            <progress value="70" max="100"></progress>
+            <p>Rails Framework</p>
+            <progress value="85" max="100"></progress>
+            <p>Git/Github</p>
+            <progress value="100" max="100"></progress>
+          </div>
+          </td>
+          <td>
+          <div class="bar-right">
+            <p>Python</p>
+            <progress value="60" max="100"></progress>
+            <p>JavaScript</p>
+            <progress value="60" max="100"></progress>
+            <p>HTML/CSS</p>
+            <progress value="70" max="100"></progress>
+            <p>NodeJS</p>
+            <progress value="55" max="100"></progress>
+          </div>
+          </td>
+        </table>
+      </section>
+    </div>
+    <div class="portfolio-background">
+      <section id="portfolio">
+        <hr class="linea_est1">
+        <h2>Experience</h2><hr class="linea_est1">
+        <ul>
+          <li><h3>Truck App</h3>
+          <p>FullStack Developer - <strong>From:</strong>
+          March 2019 <strong>to:</strong> Present Time</p>
+          <p>Currently developing a Ruby on Rails web application
+          that will help truck drivers get in touch with potential customers
+          in a more efficient way, making the job much more profitable. The
+          project involves the use of Bootstrap, PostgreSQL, JQuery and ruby
+          gems such as devise. This web page is expected to be online in less than
+          two months
+          </p></li>
+          <li><h3>Make It Real Camp</h3>
+          <p>WEB development intensive bootcamp - <strong>From:</strong>
+          January 2019 <strong>to:</strong> April 2019</p>
+          <p>12 weeks full time 6PM-9PM code learning. For twelve weeks
+          I was learning development of WEB applications based on Ruby
+          On Rails framework and working with different technologies like
+          HTML5, CSS3, Javascript, Postgres, GitHub, real time, responsive design,
+          testing techniques, deploy with Heroku and Amazon WEB services.
+          </p></li>
+        </ul>
+
+      </section>
+    </div>
+
+    <section id="contact" class="container">
+      <h2>Contact me</h2>
+      <div>
+        <div class="info">
+            <a href="https://api.whatsapp.com/send?phone=573004844959"><i class="fab fa-whatsapp"></i> Call me or send a message +573004844959</a>
+            <a href="mailto:estebanmh95@gmail.com?Subject=You%20Got%20Selected"><i class="far fa-envelope"></i> Write an email estebanmh95@gmail.com</a>
+        </div>
+        <h2>Reach me on social</h2>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/esteban-marin-052241176" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/esteban.marin.9421" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/estebanmh95/" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
