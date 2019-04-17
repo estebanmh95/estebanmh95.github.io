@@ -355,7 +355,16 @@ footer {
   text-align: justify;
   font-size: 36;
   color: white;
-
+}
+  .left_bar{
+  font-size: 20px;
+  padding: 80px 100px 70px;
+  text-align: left;
+}
+.right_bar{
+  font-size: 20px;
+  padding: 80px 100px 70px;
+  text-align: right;
 }
 }
 
