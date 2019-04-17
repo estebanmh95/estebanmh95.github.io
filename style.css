@@ -130,17 +130,19 @@ nav a.nav-item {
 
 .bar-left {
   flex-grow: 1;
-  margin-top: auto;
-  font-size: 24px;
-  padding: 50px 0px 70px;
+  max-width: 300px;
+
+  font-size: 16px;
   text-align: left;
  
 }
 
 .bar-right {
 
-  font-size: 24px;
-  padding: 50px 0px 70px;
+  font-size: 16px;
+  max-width: 300px;
+  margin: 0px 25px;
+;
   text-align: right;
 }
 
