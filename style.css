@@ -356,13 +356,13 @@ footer {
   font-size: 36;
   color: white;
 }
-  .left_bar{
+  .bar-left{
   font-size: 20px;
   padding: 80px 200px 70px;
   text-align: left;
   margin: 10px 25px;
 }
-.right_bar{
+.bar-right{
   font-size: 20px;
   padding: 80px 100px 70px;
   margin: 10px 25px;
