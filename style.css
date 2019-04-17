@@ -278,7 +278,7 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 500px) {
   .media-container{
     width: 85%;
     max-width: 1000px;
