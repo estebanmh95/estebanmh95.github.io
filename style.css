@@ -286,6 +286,10 @@ footer {
     margin-right: auto;
     overflow-x: hidden;
   }
+   #hello figure {
+    width: 300px; 
+    height: 200px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -326,10 +330,6 @@ footer {
     font-size: 32px;
   }
   
-  #hello figure {
-    width: 300px; 
-    height: 200px;
-  }
   #contact .social a {
     font-size: 32px;
     padding: 5px 10px;
