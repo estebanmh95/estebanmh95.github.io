@@ -43,6 +43,10 @@ header{
   justify-content: space-between;
 }
 
+td
+{
+    padding:0 15px 0 15px;
+}
 
 .scroll {
   display: flex;
