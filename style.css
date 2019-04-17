@@ -133,6 +133,7 @@ nav a.nav-item {
   margin-top: auto;
   font-size: 24px;
   padding: 50px 0px 70px;
+  text-align: left;
  
 }
 
@@ -140,6 +141,7 @@ nav a.nav-item {
 
   font-size: 24px;
   padding: 50px 0px 70px;
+  text-align: right;
 }
 
 .abilities{
