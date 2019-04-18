@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esteban Marin</title>
+    <link rel="shortcut icon" href="ruby_logo.png">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -17,7 +19,7 @@
   </head>
   <body >
     <header>
-      <div class="container">
+      <!-- <div class="container">
         <div class="home-wrapper">
           <a href="" class="logo">EstebanMarin</a>
           <nav class="scroll">
@@ -29,7 +31,34 @@
 
           </nav>
         </div>
-      </div>
+      </div> -->
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mNavbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">EstebanMarin</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="mNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#hello">Me</a></li>
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#abilities">Skills</a></li>
+              <li><a href="#portfolio">Experience</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-->
+      </nav><!-- /.navbar --> 
+
     </header>
 
     <!-- <div class="home-background"> -->
@@ -37,9 +66,8 @@
 
       <section id="hello" class="container">
         <h1>Ruby on Rails Full Stack Developer</h1>
-        <figure>
-          <img src="Image1.png"" alt="img1">
-        </figure class="backphoto">
+        <figure><img src="Image1.png" alt="img1"></figure>
+        <figure class="backphoto"></figure>
         <h2>Hello, I'm Esteban Marin</h2>
         <p>If a passionate, self driven programmer is what you're looking for, you're in luck</p>
       </section>
@@ -76,45 +104,58 @@
           </div>
         </div>
       </section>
-      <section id="abilities" class="abilities">
-        <br>
-        <h2 class="flex-container">Hard Skills</h2>
-        <table align="center">
-          <td colspan="3">
-          <div>
-            <p>Ruby</p>
-            <progress value="85" max="100"></progress>
-            <p>SQlite/PostgreSQL</p>
-            <progress value="70" max="100"></progress>
-            <p>Rails</p>
-            <progress value="85" max="100"></progress>
-            <p>Git/Github</p>
-            <progress value="100" max="100"></progress>
-          </div>
-          </td>
-          <td colspan="3">
-          <div>
-            <p>Python</p>
-            <progress value="60" max="100"></progress>
-            <p>JavaScript</p>
-            <progress value="60" max="100"></progress>
-            <p>HTML/CSS</p>
-            <progress value="70" max="100"></progress>
-            <p>NodeJS</p>
-            <progress value="55" max="100"></progress>
-          </div>
-          </td>
-        </table>
+      <section id="abilities" class="flex-container">
+        <h2>Hard Skills</h2>
+          
+        <div class="box">
+          <p>Ruby</p>
+          <progress value="85" max="100"></progress>
+        </div>
+    
+        <div class="box">
+          <p>SQlite/PostgreSQL</p>
+          <progress value="70" max="100"></progress>
+        </div>
+      
+        <div class="box">
+          <p>Rails</p>
+          <progress value="85" max="100"></progress>
+        </div>
+    
+        <div class="box">
+          <p>Git/Github</p>
+          <progress value="100" max="100"></progress>
+        </div>
+
+        <div class="box">
+          <p>Python</p>
+          <progress value="60" max="100"></progress>
+        </div>
+        
+        <div class="box">
+          <p>JavaScript</p>
+          <progress value="60" max="100"></progress>
+        </div>
+      
+        <div class="box">
+          <p>HTML/CSS</p>
+          <progress value="70" max="100"></progress>
+        </div>
+    
+        <div class="box">
+          <p>NodeJS</p>
+          <progress value="55" max="100"></progress>
+        </div>
       </section>
     </div>
     <div class="portfolio-background">
-      <section id="portfolio">
+      <section id="portfolio" class="container">
         <h2>Experience</h2>
         <ul>
           <li><h3>Truck App</h3>
           <p>FullStack Developer - <strong>From:</strong>
           March 2019 <strong>to:</strong> Present Time</p>
-          <p>Currently developing a Ruby on Rails web application
+          <p>Currently developing a Ruby on Rails web application 
           that will help truck drivers get in touch with potential customers
           in a more efficient way, making the job much more profitable. The
           project involves the use of Bootstrap, PostgreSQL, JQuery and ruby
