@@ -15,7 +15,7 @@ img{
 
 /* table{
   max-width:300px;
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
 } */
 
@@ -28,32 +28,42 @@ header{
 
 /*
 ################################################
-  navbar 
+  navbar
 ################################################
 */
+#nav{
+  z-index: 9999;
+}
 .navbar-default{
   background-color: #101010;
   border-radius: 0;
   border-color: #101010;
   color: white;
+
+
 }
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
   color: #bbb;
+
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
   color: whitesmoke;
+
 }
 .navbar-default .navbar-toggle{
   border-color: #101010;
+
 }
 .navbar-default .navbar-toggle .icon-bar{
   color: #bbb;
   background-color: #bbb;
+
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: #101010;
   color: whitesmoke;
-} 
+
+}
 /*
 ################################################
 ################################################
@@ -170,7 +180,7 @@ nav a.nav-item {
   max-width: 220px;
   font-size: 16px;
   text-align: left;
- 
+
 }
 
 .bar-right {
@@ -184,12 +194,13 @@ nav a.nav-item {
 .abilities{
   background-color: white;
   padding: 60px 0 20px;
+  z-index: -1;
 
 }
 .portfolio-background {
  background-color: #444;
  width: 100%;
-  
+
 }
 
 #portfolio {
@@ -337,7 +348,74 @@ footer {
   width: 100%;
   padding-bottom: 20px;
   text-align: center;
+
 }
+
+.progress-bar1 {
+ position: relative;
+ height: 100px;
+ width: 100px;
+ margin:0 auto;
+
+}
+#abilities .container{
+  z-index: -1
+}
+.progress-bar1 div {
+ position: absolute;
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+
+}
+
+.progress-bar1 div span {
+ position: absolute;
+ font-family: Arial;
+ font-size: 25px;
+ line-height: 75px;
+ height: 75px;
+ width: 75px;
+ left: 12.5px;
+ top: 12.5px;
+ text-align: center;
+ border-radius: 50%;
+ background-color: white;
+
+}
+
+.progress-bar1 .background { background-color: #b3cef6; }
+
+.progress-bar1 .rotate {
+ clip: rect(0 50px 100px 0);
+ background-color: #4b86db;
+
+}
+
+.progress-bar1 .left {
+ clip: rect(0 50px 100px 0);
+ opacity: 1;
+ background-color: #b3cef6;
+
+}
+
+.progress-bar1 .right {
+ clip: rect(0 50px 100px 0);
+ transform: rotate(180deg);
+ opacity: 0;
+ background-color: #4b86db;
+
+}
+
+@keyframes
+toggle {  0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
 
 @media only screen and (min-width: 370px) {
   .media-container{
@@ -347,8 +425,8 @@ footer {
     margin-right: auto;
     overflow-x: hidden;
   }
-  #abilities .box{
-    font-size: 16px;
+  #abilities .container{
+    z-index: -1
   }
 }
 
@@ -360,9 +438,8 @@ footer {
     margin-right: auto;
     overflow-x: hidden;
   }
-  #abilities .box{
-    padding-top: 30px;
-    font-size: 22px;
+  #abilities .container{
+    z-index: -1
   }
   header {
     padding: 12px;
@@ -413,27 +490,26 @@ footer {
   font-size: 20px;
   margin: 10px 130px;
   text-align: center;
-  
+
 }
 .bar-right{
-  font-size: 20px; 
+  font-size: 20px;
   margin: 10px 25px;
   text-align: right;
 }
   table{
   font-size: 26px;
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
 }
 }
 @media only screen and (max-width: 1005px) {
-  #abilities .box{
-    max-width: 300px;
+  #abilities .container{
+    z-index: -1
   }
 }
 @media only screen and (max-width: 768px) {
-  #abilities .box{
-    max-width: 200px;
-    font-size: 16px;
+  #abilities .container{
+    z-index: -1
   }
 }

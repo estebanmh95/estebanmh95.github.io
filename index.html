@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="plugin.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -44,7 +45,7 @@
             </button>
             <a class="navbar-brand" href="#">EstebanMarin</a>
           </div>
-      
+
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="mNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -56,7 +57,7 @@
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-->
-      </nav><!-- /.navbar --> 
+      </nav><!-- /.navbar -->
 
     </header>
 
@@ -86,7 +87,7 @@
 
         <div class="flex-right">
           <div>
-            <h3>Fullname</h3>
+            <h3>Name</h3>
             <p>Esteban Marin</p>
           </div><hr class="linea_est">
           <div>
@@ -104,47 +105,52 @@
         </div>
       </section>
       <section id="abilities" class="flex-container">
-        <h2>Hard Skills</h2>
-          
-        <div class="box">
-          <p>Ruby</p>
-          <progress value="85" max="100"></progress>
-        </div>
-    
-        <div class="box">
-          <p>SQlite/PostgreSQL</p>
-          <progress value="70" max="100"></progress>
-        </div>
-      
-        <div class="box">
-          <p>Rails</p>
-          <progress value="85" max="100"></progress>
-        </div>
-    
-        <div class="box">
-          <p>Git/Github</p>
-          <progress value="100" max="100"></progress>
-        </div>
 
-        <div class="box">
-          <p>Python</p>
-          <progress value="60" max="100"></progress>
-        </div>
-        
-        <div class="box">
-          <p>JavaScript</p>
-          <progress value="60" max="100"></progress>
-        </div>
-      
-        <div class="box">
-          <p>HTML/CSS</p>
-          <progress value="70" max="100"></progress>
-        </div>
-    
-        <div class="box">
-          <p>NodeJS</p>
-          <progress value="55" max="100"></progress>
-        </div>
+        <h2>Hard Skills</h2>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="80" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">Ruby</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">Rails</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">SQlite</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="90" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                        <p class="text-center">Git/Github</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="70" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">HTML/CSS</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="60" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">JavaScript</p>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="60" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                        <p class="text-center">Python</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="50" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">Testing(TDD)</p>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="progress-bar1" data-percent="60" data-duration="1000" data-color="#ccc,#00bcd4"></div>
+                      <p class="text-center">Api</p>
+                  </div>
+              </div>
+            </div>
       </section>
     </div>
     <div class="portfolio-background">
@@ -154,7 +160,7 @@
           <li><h3>Truck App</h3>
           <p>FullStack Developer - <strong>From:</strong>
           March 2019 <strong>to:</strong> Present Time</p>
-          <p>Currently developing a Ruby on Rails web application 
+          <p>Currently developing a Ruby on Rails web application
           that will help truck drivers get in touch with potential customers
           in a more efficient way, making the job much more profitable. The
           project involves the use of Bootstrap, PostgreSQL, JQuery and ruby
@@ -190,5 +196,10 @@
         </div>
       </div>
     </section>
+
+      <script type="text/javascript">
+        $(".progress-bar1").loading();
+      </script>
+
   </body>
 </html>
