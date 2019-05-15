@@ -203,6 +203,13 @@ nav a.nav-item {
 
 }
 
+#personal_foto{
+  width: 200px;
+  height: 200px;
+  float:left;
+  margin-top: 60px;
+}
+
 #portfolio {
   padding: 60px 0 20px;
   color: whitesmoke;
@@ -228,6 +235,11 @@ font-weight: 300;
 line-height: 120%;
 color: #00bcd4;
 margin: 20px 0 17px 0;
+}
+
+#experienced{
+  float: right;
+  margin-top: -23px;
 }
 
 #abilities {
